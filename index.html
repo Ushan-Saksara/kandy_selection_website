@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kandy Selection</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    
+  </head>
+    <body>
+      <div class="kandy">
+        <nav id="desktop-nav">
+            <div class="nav-left">
+              <div class="logo">KANDY</div>
+            </div>
+              <ul class="nav-links">
+
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Shop">Shop</a></li>
+                
+                <div onmouseover="showDropdown('dropdownMenu0')"
+                     onmouseleave="hideDropdown('dropdownMenu0')"
+                     class="dropdown"><a href="#Women">
+                <button class="dropbtn1">Women &#8711</button></a>
+                  <div id="dropdownMenu0" class="dropdown-content1">
+                  <div class="mega-menu">
+                    <div class="mega-content">
+                      <div class="mega-image">
+                        <img src="assests/Women-Pic.webp" alt="Women's Fashion">
+                      </div>
+                      <div class="mega-links">
+                        <h3>VIEW WOMEN'S COLLECTIONS</h3>
+                        <div class="categories">
+                          <ul>
+                            <li><a href="#">Crop Top</a></li>
+                            <li><a href="#">Denim</a></li>
+                            <li><a href="#">Frocks</a></li>
+                            <li><a href="#">Office Wear</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                  
+                <div onmouseover="showDropdown('dropdownMenu1')"
+                     onmouseleave="hideDropdown('dropdownMenu1')"
+                     class="dropdown"><a href="#Men">
+                <button class="dropbtn1">Men &#8711</button></a>
+                  <div id="dropdownMenu1" class="dropdown-content1">
+                    <div class="mega-menu">
+                      <div class="mega-content">
+                        <div class="mega-image">
+                          <img src="assests/Men-Pic.webp" alt="Men's Fashion">
+                        </div>
+                        <div class="mega-links">
+                          <h3>VIEW MEN'S COLLECTIONS</h3>
+                          <div class="categories">
+                            <ul>
+                              <li><a href="#">T-Shirts</a></li>
+                              <li><a href="#">Shirt</a></li>
+                              <li><a href="#">Shorts</a></li>
+                              <li><a href="#">Bottom</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div onmouseover="showDropdown('dropdownMenu2')"
+                     onmouseleave="hideDropdown('dropdownMenu2')"
+                     class="dropdown"><a href="#Brands">
+                <button class="dropbtn1">Brands &#8711</button></a>
+                  <div id="dropdownMenu2" class="dropdown-content1">
+                    <div class="mega-menu">
+                      <div class="mega-content">
+                        <div class="mega-image">
+                          <img src="assests/Brands-Pic.webp" alt="Brands">
+                        </div>
+                        <div class="mega-links">
+                          <h3>VIEW BRANDS COLLECTIONS</h3>
+                          <div class="categories">
+                            <ul>
+                              <li><a href="#">Grizzley</a></li>
+                              <li><a href="#">DKDC</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div onmouseover="showDropdown('dropdownMenu3')"
+                     onmouseleave="hideDropdown('dropdownMenu3')"
+                     class="dropdown"><a href="#Jewellery">
+                <button class="dropbtn1">Jewellery &#8711</button></a>
+                  <div id="dropdownMenu3" class="dropdown-content1">
+                    <div class="mega-menu">
+                      <div class="mega-content">
+                        <div class="mega-image">
+                          <img src="assests/Jewellery-Pic.webp" alt="Jewellery">
+                        </div>
+                        <div class="mega-links">
+                          <h3>VIEW JEWELLERY COLLECTIONS</h3>
+                          <div class="categories">
+                            <ul>
+                              <li><a href="#">Earring</a></li>
+                              <li><a href="#">Necklace</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <li><a href="#Gift-Cards">Gift Cards</a></li>
+                <li><a href="#OFFERS">OFFERS</a></li>
+              </ul>
+              <div id="sign-in">
+                  <a href="#Sign-In">
+                  <img src="assests/Sign-In.png" 
+                       alt="Sign In"
+                       class="icon"
+                       style="margin-right: 3rem;"></a>
+              </div>
+        </nav>
+      </div>
+
+      <div class="kandy1">
+        <nav id="hamburger-nav">
+          <div class="nav-left">
+            <div class="hamburger-icon-1" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <div class="span3-1"><span></span></div>
+            </div>
+
+            <div class="menu-links">
+
+              <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+              <li><a href="#Shop" onclick="toggleMenu()">Shop</a></li>
+
+                <div onmouseover="showDropdown('dropdownMenu4')"
+                     onmouseleave="hideDropdown('dropdownMenu4')"
+                     class="dropdown"><a href="#Women">
+                <button class="dropbtn">Women &#8711</button></a>
+                <div id="dropdownMenu4" class="dropdown-content">
+                  <a href="#">Crop Top</a>
+                  <a href="#">Denim</a>
+                  <a href="#">Frocks</a>
+                  <a href="#">Office Wear</a>
+                </div>
+                </div><br>
+                <div onmouseover="showDropdown('dropdownMenu5')"
+                     onmouseleave="hideDropdown('dropdownMenu5')"
+                     class="dropdown"><a href="#Men">
+                <button class="dropbtn">Men &#8711</button></a>
+                <div id="dropdownMenu5" class="dropdown-content">
+                  <a href="#">T-Shirts</a>
+                  <a href="#">Shirt</a>
+                  <a href="#">Shorts</a>
+                  <a href="#">Bottom</a>
+                </div>
+                </div><br>
+                <div onmouseover="showDropdown('dropdownMenu6')"
+                     onmouseleave="hideDropdown('dropdownMenu6')"
+                     class="dropdown"><a href="#Brands">
+                <button class="dropbtn">Brands &#8711</button></a>
+                <div id="dropdownMenu6" class="dropdown-content">
+                  <a href="#">Grizzley</a>
+                  <a href="#">DKDC</a>
+                </div>
+                </div><br>
+                <div onmouseover="showDropdown('dropdownMenu7')"
+                     onmouseleave="hideDropdown('dropdownMenu7')"
+                     class="dropdown"><a href="#Jewellery">
+                <button class="dropbtn">Jewellery &#8711</button></a>
+                <div id="dropdownMenu7" class="dropdown-content">
+                  <a href="#">Earring</a>
+                  <a href="#">Necklace</a>
+                </div>
+                </div>
+                
+                <li><a href="#Gift-Cards" onclick="toggleMenu()" style="font-size: 0.9rem;">Gift Cards</a></li>
+                <li><a href="#Gift-Cards" onclick="toggleMenu()" style="font-size: 0.9rem;">OFFERS</a></li>
+            </div>
+
+            <div class="nav-center">
+              <div class="logo1">KANDY</div>
+            </div>
+          </div>
+            <div id="sign-in">
+                  <a href="#Sign-In">
+                  <img src="assests/Sign-In.png" 
+                       alt="Sign In"
+                       class="icon"
+                       style="margin-right: 0.5rem; margin-top: 0.25rem;"></a>
+            </div>
+        </nav>
+      </div>
+
+      <div class="slider" id="slider">
+          <section class="slide" style="background-image: url('assests/01.webp');"></section>
+          <section class="slide" style="background-image: url('assests/02.webp');"></section>
+          <section class="slide" style="background-image: url('assests/03.webp');"></section> 
+      </div>
+
+      <div class="slider1" id="slider1">
+          <section class="slide1" style="background-image: url('assests/1.webp');"></section>
+          <section class="slide1" style="background-image: url('assests/2.webp');"></section>
+          <section class="slide1" style="background-image: url('assests/3.webp');"></section> 
+      </div>
+
+      <div class="bounce-nav"><p>KANDY SELECTION KANDY SELECTION KANDY SELECTION KANDY SELECTION KANDY SELECTION KANDY SELECTION</p></div>
+      <div class="bounce-menu"><p>KANDY SELECTION KANDY SELECTION KANDY SELECTION</p></div>
+
+      <div id="Latest-Arrival">
+        <div class="nav-center">
+      <div class="latest-arrival-text-p">NEW</div>
+        </div>
+      <div class="latest-arrival-text-p1">Latest Arrival</div>
+        <div class="latest-arrival-text-p2">
+          <a href="#Explore-More"
+            class="latest-arrival-link">Explore More</a>
+        </div>
+      </div>
+      
+      <div class="la-grid1">
+        <div class="la-grid1-categories">
+          <div class="la-grid1-item">
+            <div class="la-img">
+              <img src="assests/Girl-Pic1.png" class=""   alt="">
+              <button type="button" class="la-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="la-product-brand">Grey Button Detailed Slit Midi Skirt</div>
+            <div class="la-description">
+              This Grey Button Detailed Slit Midi Skirt is designed for effortless elegance. 
+              The ribbed fabric, button details, and side slit create a flattering silhouette that's 
+              both stylish and comfortable. Perfect fo both casual and dressy occasions.
+            </div>
+            <div class="la-price">LKR 2,295.00</div>
+          </div>
+          <div class="la-grid1-item">
+            <div class="la-img">
+              <img src="assests/Girl-Pic2.jpg" class="" alt="">
+              <button type="button" class="la-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="la-product-brand">Strappy U-Neck Crop Top</div>
+            <div class="la-description">
+              Introducing our timeless Beige Crop Top with a classic U-neck design. This wardrobe
+              essential seamlessly blends simplicity and sophistication, providing a versatile piece 
+              that exudes timeless elegance. Elevate your style effortlessly with this chic and comfortable classic.
+            </div>
+            <div class="la-price">LKR 795.00</div>
+          </div>
+          <div class="la-grid1-item">
+            <div class="la-img">
+              <img src="assests/Girl-Pic3.jpg" class="" alt="">
+              <button class="la-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="la-product-brand">Sakura Flower Design Two Piece Dress</div>
+            <div class="la-description">
+              An exquisite ensemble that captures the essence of sophistication and romance. Envision
+              yourself adorned in the stunning dress set, its Sakura flower design evoking the fleeting
+              beauty of cherry blossoms in full bloom.
+            </div>
+            <div class="la-price">LKR 2,495.00</div>
+          </div>
+          <div class="la-grid1-item">
+            <div class="la-img">
+              <img src="assests/Girl-Pic4.png" class="" alt="">
+              <button class="la-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="la-product-brand">Ribbed Round-Neck Tank Top</div>
+            <div class="la-description">
+              Upgrade your basics with our Ribbed Round-Neck Tank Top, a versatile staple that combines 
+              comfort and style effortlessly. Perfect for layering or wearing solo, this tank top 
+              is a must-have addition to your wardrobe.
+            </div>
+            <div class="la-price">LKR 1,395.00</div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="la-grid">
+        <div class="la-grid-categories">
+          <div class="la-grid-item">
+            <div class="la-img">
+              <img src="assests/Girl-Pic1.png" class=""   alt="">
+              <button type="button" class="la-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="la-product-brand">Grey Button Detailed Slit Midi Skirt</div>
+            <div class="la-description">
+              This Grey Button Detailed Slit Midi Skirt is designed for effortless elegance. 
+              The ribbed fabric, button details, and side slit create a flattering silhouette that's 
+              both stylish and comfortable. Perfect fo both casual and dressy occasions.
+            </div>
+            <div class="la-price">LKR 2,295.00</div>
+          </div>
+
+          <div class="la-grid-item">
+            <div class="la-img">
+              <img src="assests/Girl-Pic2.jpg" class="" style="aspect-ratio: 768/1024;" alt="">
+              <button type="button" class="la-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="la-product-brand">Strappy U-Neck Crop Top</div>
+            <div class="la-description">
+              Introducing our timeless Beige Crop Top with a classic U-neck design. This wardrobe
+              essential seamlessly blends simplicity and sophistication, providing a versatile piece 
+              that exudes timeless elegance. Elevate your style effortlessly with this chic and comfortable classic.
+            </div>
+            <div class="la-price">LKR 795.00</div>
+          </div>
+          <div class="la-grid-item">
+            <div class="la-img">
+              <img src="assests/Girl-Pic3.jpg" class="" alt="">
+              <button class="la-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="la-product-brand">Sakura Flower Design Two Piece Dress</div>
+            <div class="la-description">
+              An exquisite ensemble that captures the essence of sophistication and romance. Envision
+              yourself adorned in the stunning dress set, its Sakura flower design evoking the fleeting
+              beauty of cherry blossoms in full bloom.
+            </div>
+            <div class="la-price">LKR 2,495.00</div>
+          </div>
+          <div class="la-grid-item">
+            <div class="la-img">
+              <img src="assests/Girl-Pic4.png" class="" alt="">
+              <button class="la-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="la-product-brand">Ribbed Round-Neck Tank Top</div>
+            <div class="la-description">
+              Upgrade your basics with our Ribbed Round-Neck Tank Top, a versatile staple that combines 
+              comfort and style effortlessly. Perfect for layering or wearing solo, this tank top 
+              is a must-have addition to your wardrobe.
+            </div>
+            <div class="la-price">LKR 1,395.00</div>
+          </div>
+        </div>
+      </div>
+          
+      <div class="collection-grid">
+        <div>
+          <img src="assests/Girl-Pic5.jpg" class="G5">
+          <div class="STL-view"><p>Shop the Latest</p><br>
+            <div class="STL-view-p1">
+              VIEW COLLECTION
+            </div>
+          </div>
+          <div class="bounce-nav1"><p>EXPLORE KANDY WOMEN COLLECTION</p></div>
+        </div>
+        <div>
+          <img src="assests/Girl-Pic6.jpg" class="G6">
+          <div class="STL-view1"><p>Women's Collection</p><br>
+            <div class="STL-view1-p1">
+              VIEW COLLECTION
+            </div>
+          </div>
+          <img src="assests/Men-Pic1.jpg" class="G6" style="aspect-ratio: 768/700;">
+          <div class="STL-view1"><p>Men's Collection</p><br>
+            <div class="STL-view1-p1">
+              VIEW COLLECTION
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="collection-grid1">
+        <div>
+          <img src="assests/Girl-Pic5.jpg" class="G5">
+          <div class="STL-view"><p>Shop the Latest</p><br>
+            <div class="STL-view-p1">
+              VIEW COLLECTION
+            </div>
+          </div>
+          <div class="bounce-nav1"><p>EXPLORE KANDY WOMEN COLLECTION</p></div>
+        </div>
+        <div class="collection-grid2">
+          <div>
+            <img src="assests/Girl-Pic6.jpg" class="G6">
+            <div class="STL-view1"><p>Women's Collection</p><br>
+              <div class="STL-view1-p1">
+                VIEW COLLECTION
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="assests/Men-Pic1.jpg" class="G6" style="aspect-ratio: 768/700;">
+            <div class="STL-view1"><p>Men's Collection</p><br>
+              <div class="STL-view1-p1">
+                VIEW COLLECTION
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Best-Selling">
+        <div class="best-selling-text-p1">Best Selling</div>
+          <div class="nav-center">
+        <div class="best-selling-text-p">Our Most Loved Looks</div>
+          </div>
+          <div class="best-selling-text-p2">
+            <a href="#Explore-More"
+              class="best-selling-link">View All</a>
+          </div>
+      </div>
+
+      <div class="bs-grid1">
+        <div class="bs-grid1-categories">
+          <div class="bs-grid1-item">
+            <div class="bs-img">
+              <img src="assests/Girl-Pic7.jpg" class=""   alt="">
+              <button type="button" class="bs-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="bs-product-brand">Tie On Polka Dot Tank Top</div>
+            <div class="bs-description">
+              Elevate your summer style with the Tie-On Polka Dot Tank Top - a charming blend of vintage 
+              flair and contemporary chic. Imagine yourself adorned in this delightful top, its playful
+              polka dot pattern adding a touch of whismy to your ensemble.
+            </div>
+            <div class="bs-price">LKR 850.00</div>
+          </div>
+          <div class="bs-grid1-item">
+            <div class="bs-img">
+              <img src="assests/Girl-Pic8.jpg" class="" style="aspect-ratio: 768/1024;" alt="">
+              <button type="button" class="bs-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="bs-product-brand">Yellow Color Puff Sleeve Crop Top</div>
+            <div class="bs-description">
+              A radiant and distinctive piece that embodies the essence of vibrant energy and individual 
+              style. Picture yourself adorned in this unique top, its luminous yellow hue illuminating
+              your ensemble like a ray of golden sunlight.
+            </div>
+            <div class="bs-price">LKR 1,350.00</div>
+          </div>
+          <div class="bs-grid1-item">
+            <div class="bs-img">
+              <img src="assests/Girl-Pic9.png" class="" alt="">
+              <button class="bs-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="bs-product-brand">Lace Hollow Out High Neck Long Sleeve Top</div>
+            <div class="bs-description">
+              Elevate your style with our Lace Hollow Out High Neck Long Sleeve Top. This elegant and sophisticated
+              top features intricate lace detailing and a chic high neck, making it perfect for both day
+              and evening wear.
+            </div>
+            <div class="bs-price">LKR 2,095.00</div>
+          </div>
+          <div class="bs-grid1-item">
+            <div class="bs-img">
+              <img src="assests/Girl-Pic10.jpg" class="" alt="">
+              <button class="bs-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="bs-product-brand">Floral Summer Crop Top Skirt with Puff sleeve</div>
+            <div class="bs-description">
+              This Floral Summer Crop Top and Skirt ensemble exudes a delightful blend of femininity and 
+              summertime charm. The crop top features elegant puff sleeves that add a playful and romantic
+              flair to the outfit, creating a whimsical silhouette.
+            </div>
+            <div class="bs-price">LKR 3,295.00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bs-grid">
+        <div class="bs-grid-categories">
+          <div class="bs-grid-item">
+            <div class="bs-img">
+              <img src="assests/Girl-Pic7.jpg" class=""   alt="">
+              <button type="button" class="bs-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="bs-product-brand">Tie On Polka Dot Tank Top</div>
+            <div class="bs-description">
+              Elevate your summer style with the Tie-On Polka Dot Tank Top - a charming blend of vintage 
+              flair and contemporary chic. Imagine yourself adorned in this delightful top, its playful
+              polka dot pattern adding a touch of whismy to your ensemble.
+            </div>
+            <div class="bs-price">LKR 850.00</div>
+          </div>
+
+          <div class="bs-grid-item">
+            <div class="bs-img">
+              <img src="assests/Girl-Pic8.jpg" class="" style="aspect-ratio: 768/1024;" alt="">
+              <button type="button" class="bs-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="bs-product-brand">Yellow Color Puff Sleeve Crop Top</div>
+            <div class="bs-description">
+              A radiant and distinctive piece that embodies the essence of vibrant energy and individual 
+              style. Picture yourself adorned in this unique top, its luminous yellow hue illuminating
+              your ensemble like a ray of golden sunlight.
+            </div>
+            <div class="bs-price">LKR 1,350.00</div>
+          </div>
+          <div class="bs-grid-item">
+            <div class="bs-img">
+              <img src="assests/Girl-Pic9.png" class="" alt="">
+              <button class="bs-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="bs-product-brand">Lace Hollow Out High Neck Long Sleeve Top</div>
+            <div class="bs-description">
+              Elevate your style with our Lace Hollow Out High Neck Long Sleeve Top. This elegant and sophisticated
+              top features intricate lace detailing and a chic high neck, making it perfect for both day
+              and evening wear.
+            </div>
+            <div class="bs-price">LKR 2,095.00</div>
+          </div>
+          <div class="bs-grid-item">
+            <div class="bs-img">
+              <img src="assests/Girl-Pic10.jpg" class="" alt="">
+              <button class="bs-quick-add-btn">+  Quick Add</button>
+            </div>
+            <div class="bs-product-brand">Floral Summer Crop Top Skirt with Puff sleeve</div>
+            <div class="bs-description">
+              This Floral Summer Crop Top and Skirt ensemble exudes a delightful blend of femininity and 
+              summertime charm. The crop top features elegant puff sleeves that add a playful and romantic
+              flair to the outfit, creating a whimsical silhouette.
+            </div>
+            <div class="bs-price">LKR 3,295.00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="men-grid">
+        <div>
+          <img src="assests/Men-Pic2.webp" class="M2">
+        </div>
+        <div class="padding">
+          <div class="men-view"><p>From Kandy Men's Collection</p>
+            <div class="men-view-p1">
+              Branded Men's Choise
+            </div>
+          </div>
+          <div class="men-grid-categories">
+            <div class="men-grid-item">
+              <img src="assests/Men-Pic3.jpg" alt="T-Shirts">
+              <div class="men-grid-overlay">T-Shirts <span class="rotate">&#10176</span></div>
+            </div>
+            <div class="men-grid-item">
+              <img src="assests/Men-Pic4.jpg" alt="Casual Shirts">
+              <div class="men-grid-overlay">Casual Shirts <span class="rotate">&#10176</span></div>
+            </div>
+            <div class="men-grid-item">
+              <img src="assests/Men-Pic5.jpg" alt="Shirts">
+              <div class="men-grid-overlay">Shirts <span class="rotate">&#10176</span></div>
+            </div>
+            <div class="men-grid-item">
+              <img src="assests/Men-Pic6.jpg" alt="Shorts">
+              <div class="men-grid-overlay">Shorts <span class="rotate">&#10176</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="men-grid1">
+        <div>
+          <img src="assests/Men-Pic2.webp" class="M2">
+        </div>
+        <div style="padding-left: 2.5rem; padding-right: 2.5rem;">
+          <div class="men-view1"><p>From Kandy Men's Collection</p>
+            <div class="men-view1-p1">
+              Branded Men's Choise
+            </div>
+          </div>
+        </div>
+        <div class="men-grid1-categories">
+          <div class="men-grid1-item">
+            <img src="assests/Men-Pic3.jpg" alt="T-Shirts">
+            <div class="men-grid1-overlay">T-Shirts <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="men-grid1-item">
+            <img src="assests/Men-Pic4.jpg" alt="Casual Shirtss">
+            <div class="men-grid1-overlay">Casual Shirts <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="men-grid1-item">
+            <img src="assests/Men-Pic5.jpg" alt="Shirts">
+            <div class="men-grid1-overlay">Shirts <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="men-grid1-item">
+            <img src="assests/Men-Pic6.jpg" alt="Shorts">
+            <div class="men-grid1-overlay">Shorts <span class="rotate">&#10176</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Shop-Category">
+        <div class="shop-category-text-p1">Shop by Categories</div>
+        <div class="nav-center">
+          <div class="shop-category-text-p">Find Your Favourites</div>
+        </div>
+      </div>
+
+      <div class="sc-grid">
+        <div class="sc-grid-categories">
+          <div class="sc-grid-item">
+            <img src="assests/Women-Pic1.png" alt="">
+            <div class="sc-grid-overlay">Women's T-Shirts <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid-item">
+            <img src="assests/Women-Pic2.jpg" alt="">
+            <div class="sc-grid-overlay">Crop Tops <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid-item">
+            <img src="assests/Women-Pic3.jpeg" alt="">
+            <div class="sc-grid-overlay">Dresses <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid-item">
+            <img src="assests/Women-Pic4.jpeg" alt="">
+            <div class="sc-grid-overlay">Blouses <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid-item">
+            <img src="assests/Men-Pic7.jpg" alt="">
+            <div class="sc-grid-overlay">Men's Casual T-Shirts <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid-item">
+            <img src="assests/Men-Pic8.jpg" alt="">
+            <div class="sc-grid-overlay">Men's T-Shirts <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid-item">
+            <img src="assests/Men-Pic9.jpeg" alt="">
+            <div class="sc-grid-overlay">Men's Shorts <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid-item">
+            <img src="assests/Men-Pic10.jpeg" alt="">
+            <div class="sc-grid-overlay">Men's Pants <span class="rotate">&#10176</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sc-grid1">
+        <div class="sc-grid1-categories">
+          <div class="sc-grid1-item">
+            <img src="assests/Women-Pic1.png" alt="">
+            <div class="sc-grid1-overlay">Women's T-Shirts <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid1-item">
+            <img src="assests/Women-Pic2.jpg" alt="">
+            <div class="sc-grid1-overlay">Crop Tops <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid1-item">
+            <img src="assests/Women-Pic3.jpeg" alt="">
+            <div class="sc-grid1-overlay">Dresses <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid1-item">
+            <img src="assests/Women-Pic4.jpeg" alt="">
+            <div class="sc-grid1-overlay">Blouses <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid1-item">
+            <img src="assests/Men-Pic7.jpg" alt="">
+            <div class="sc-grid1-overlay">Men's Casual T-Shirts <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid1-item">
+            <img src="assests/Men-Pic8.jpg" alt="">
+            <div class="sc-grid1-overlay">Men's T-Shirts <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid1-item">
+            <img src="assests/Men-Pic9.jpeg" alt="">
+            <div class="sc-grid1-overlay">Men's Shorts <span class="rotate">&#10176</span></div>
+          </div>
+          <div class="sc-grid1-item">
+            <img src="assests/Men-Pic10.jpeg" alt="">
+            <div class="sc-grid1-overlay">Men's Pants <span class="rotate">&#10176</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Store-Locations">
+        <div class="store-locations-text-p1">Store Locations</div>
+        <div class="nav-center">
+          <div class="store-locations-text-p">Find Us Near You: Style Just a Step Away</div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <button class="arrow left">&#10176</button>
+        <div class="box-wrapper" id="boxWrapper">
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY SELECTION - KADAWATHA</p>
+                    <div class="st-lo1-p1">#43, Colombo-Kandy Road, Kadawatha (11850)</div>
+                  </div>
+                </div>      
+                <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">info@kandyselection.lk</a>
+                  </div>
+                </div>
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 925 925</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY SELECTION - NUGEGODA</p>
+                    <div class="st-lo1-p1">#300, High Level Road, Kirulapone, Nugegoda (00600)</div>
+                  </div>
+                </div>      
+                <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">nugegoda@kandyselection.lk</a>
+                  </div>
+                </div>
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 816 980</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY SELECTION - KIRIBATHGODA</p>
+                    <div class="st-lo1-p1">#33, Colombo-Kandy Road, Kiribathgoda (11600)</div>
+                  </div>
+                </div>      
+                <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">kiribathgoda@kandyselection.lk</a>
+                  </div>
+                </div>
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 915 625</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY SELECTION - WATTALA</p>
+                    <div class="st-lo1-p1">#511/A, Negombo Road, Wattala (11300)</div>
+                  </div>
+                </div>      
+                <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">wattala@kandyselection.lk</a>
+                  </div>
+                </div>
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 934 222</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY SELECTION - DEHIWALA</p>
+                    <div class="st-lo1-p1">#164/A, Galle Road, Dehiwala (10350)</div>
+                  </div>
+                </div>      
+                <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">dehiwala@kandyselection.lk</a>
+                  </div>
+                </div>
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 710 075</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>BLOOM - KANDY</p>
+                    <div class="st-lo1-p1">#270, Galle Road, Dehiwala (10350)</div>
+                  </div>
+                </div>      
+                <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">dehiwala@kandyselection.lk</a>
+                  </div>
+                </div>
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 713 604</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY CELLULAR - KADAWATHA</p>
+                    <div class="st-lo1-p1">#43, Colombo-Kandy Road, Kadawatha (11850)</div>
+                  </div>
+                </div>      
+                <!-- <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">info@kandyselection.lk</a>
+                  </div>
+                </div> -->
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 926 976</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY CELLULAR - NUGEGODA</p>
+                    <div class="st-lo1-p1">#300, High Level Road, Kirulapone, Nugegoda (00600)</div>
+                  </div>
+                </div>      
+                <!-- <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">info@kandyselection.lk</a>
+                  </div>
+                </div> -->
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 816 980</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <button class="arrow right">&#10176</button>
+      </div>
+  
+      <div class="container">
+        <button class="arrow left1">&#10176</button>
+        <div class="box-wrapper1" id="boxWrapper1">
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY SELECTION - KADAWATHA</p>
+                    <div class="st-lo1-p1">#43, Colombo-Kandy Road, Kadawatha (11850)</div>
+                  </div>
+                </div>      
+                <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">info@kandyselection.lk</a>
+                  </div>
+                </div>
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 925 925</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY SELECTION - NUGEGODA</p>
+                    <div class="st-lo1-p1">#300, High Level Road, Kirulapone, Nugegoda (00600)</div>
+                  </div>
+                </div>      
+                <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">nugegoda@kandyselection.lk</a>
+                  </div>
+                </div>
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 816 980</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY SELECTION - KIRIBATHGODA</p>
+                    <div class="st-lo1-p1">#33, Colombo-Kandy Road, Kiribathgoda (11600)</div>
+                  </div>
+                </div>      
+                <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">kiribathgoda@kandyselection.lk</a>
+                  </div>
+                </div>
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 915 625</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY SELECTION - WATTALA</p>
+                    <div class="st-lo1-p1">#511/A, Negombo Road, Wattala (11300)</div>
+                  </div>
+                </div>      
+                <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">wattala@kandyselection.lk</a>
+                  </div>
+                </div>
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 934 222</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY SELECTION - DEHIWALA</p>
+                    <div class="st-lo1-p1">#164/A, Galle Road, Dehiwala (10350)</div>
+                  </div>
+                </div>      
+                <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">dehiwala@kandyselection.lk</a>
+                  </div>
+                </div>
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 710 075</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>BLOOM - KANDY</p>
+                    <div class="st-lo1-p1">#270, Galle Road, Dehiwala (10350)</div>
+                  </div>
+                </div>      
+                <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">dehiwala@kandyselection.lk</a>
+                  </div>
+                </div>
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 713 604</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY CELLULAR - KADAWATHA</p>
+                    <div class="st-lo1-p1">#43, Colombo-Kandy Road, Kadawatha (11850)</div>
+                  </div>
+                </div>      
+                <!-- <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">info@kandyselection.lk</a>
+                  </div>
+                </div> -->
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 926 976</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl1">
+              <div class="stl1">
+                <div class="st-lo1">
+                  <img src="assests/Location.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div>
+                    <p>KANDY CELLULAR - NUGEGODA</p>
+                    <div class="st-lo1-p1">#300, High Level Road, Kirulapone, Nugegoda (00600)</div>
+                  </div>
+                </div>      
+                <!-- <div class="st-lo1">
+                  <img src="assests/Email.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                    <a class="st-lo1-p2" href="mailto:info@kandyselection.lk">info@kandyselection.lk</a>
+                  </div>
+                </div> -->
+                <div class="st-lo1">
+                  <img src="assests/Contact.jpg" 
+                      alt=""
+                      class="sl-icon1"/>
+                  <div class="st-lo1-p1">
+                      <a class="st-lo1-p2" href="tel:+94 112 925 925">+94 112 816 980</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <button class="arrow right1">&#10176</button>
+      </div>
+
+      <div id="Explore-Kandy-Selection">
+        <img style="height: 3.5rem; mix-blend-mode: darken;" src="assests/Instagram.jpg" alt="Instagram-Pic">
+        <div class="explore-selection-text-p1">Explore Kandy Selection</div>
+        <div class="nav-center">
+          <div class="explore-selection-text-p">@kandy_selection</div>
+        </div>
+      </div>
+  
+      <div class="eks-grid">
+        <div class="eks-grid-categories">
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic5.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic6.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic7.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic8.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic9.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic10.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic11.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic12.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="eks-grid1">
+        <div class="eks-grid1-categories">
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic5.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic6.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic7.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic8.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic9.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic10.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic11.jpg" alt="">
+          </div>
+          <div class="eks-grid-item">
+            <img src="assests/Women-Pic12.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="eks-view1">
+        <div class="eks-g1">
+          <div class="eks-g">
+            <img src="assests/Pic1.jpeg" alt="">
+            <div>
+              <p>Exclusive Collection</p>
+              <div class="eks-view1-p1">We cater to the latest trends</div>
+            </div>
+          </div>
+          <div class="eks-g">
+            <img src="assests/Pic2.jpeg" alt="">
+            <div>
+              <p>Secure Payments</p>
+              <div class="eks-view1-p1">We provide instant secure checkouts</div>
+            </div>
+          </div>
+          <div class="eks-g">
+            <img src="assests/Pic3.jpeg" alt="">
+            <div>
+              <p>7 Days Exchange</p>
+              <div class="eks-view1-p1">Easy exchange policy</div>
+            </div>
+          </div>
+          <div class="eks-g">
+            <img src="assests/Pic4.jpeg" alt="">
+            <div>
+              <p>Islandwide Delivery</p>
+              <div class="eks-view1-p1">Free Delivery Above LKR 10,000</div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+        <hr class="hr">
+        <br>
+        <div class="ka">
+          <img src="assests/Kandy-End-Pic.webp">
+        </div>
+        <div class="k1">
+          Welcome to <a href="www.kandyselection.lk">www.kandyselection.lk</a>. Reserve your 
+          dress now before it’s too late. You can get in touch with us via
+        </div>
+        <br>
+        <div class="k2">
+          Phone: <a href="tel:+94 70 778 8688">+94 70 778 8688</a><br>
+          Email: <a href="mailto:online@kandyselection.lk">online@kandyselection.lk</a>
+        </div>
+        <br>
+        <div class="k3">
+          <a href="https://www.facebook.com/kandyselectiononline">
+            <img src="assests/Facebook-Pic.jpg"
+                  alt="Facebook-Pic"></a>
+          <a href="https://www.instagram.com/kandy_selection/">
+            <img src="assests/Instagram-Pic.jpg"
+                  alt="Instagram-Pic"></a>
+          <a href="https://wa.me/+94707788688/?text=Hi%2C%20anyone%20have%20a%20chat%3F">
+            <img src="assests/Whatsapp-Pic.jpg"
+                  alt="Whatsapp-Pic"></a>
+          <a href="https://www.tiktok.com/@kandy_selection">
+            <img src="assests/Tiktok-Pic.jpg"
+                  alt="Tiktok-Pic"
+                  style="height: 1.9rem;"></a>
+        </div>
+        <br>
+        <br>
+        <div class="k4">
+          <div style="font-size: 1.1rem; color: white; padding-bottom: 10px;">IMPORTANT LINKS</div><br>
+          <div style="padding-bottom: 10px;"><a href="">Returns & Exchange Policy</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Privacy Policy</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Terms & Condition</a></div>
+          <br>
+          <div style="font-size: 1.1rem; color: white; padding-bottom: 10px;">QUICK CATEGORIES</div><br>
+          <div style="padding-bottom: 10px;"><a href="">New Arrivals</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Women's Office Wear</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Women's Party Wear</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Budget Tees</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Jewellery</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Footwear</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Wallets and Purses</a></div>
+          <br>
+          <div style="font-size: 1.1rem; color: white; padding-bottom: 10px;">ACCOUNT</div><br>
+          <div style="padding-bottom: 10px;"><a href="">My Account</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Order History</a></div>
+          <br>
+          <div style="font-size: 1.1rem; color: white; padding-bottom: 10px;">HELP</div><br>
+          <div><a href="">WhatsApp</a></div>
+        </div>
+        <br>
+
+        <div class="k5">
+          &#169;kandyselection.lk. All rights reserved<br>
+          Website by <a href="https://aurora365.net/"><u>Aurora 365 Pvt Ltd</u></a>
+        </div>
+        <br>
+        <div style="text-align: center;">
+          <img src="assests/Kandy-End-Pic.svg"
+               alt="Kandy-End-Pic"
+               style="height: 1.8rem;">
+        </div>
+        <br>
+        <div class="k6">
+          <video src="assests/Video1.mp4" controls></video>
+          <video src="assests/Video2.mp4" controls></video>
+          <video src="assests/Video3.mp4" controls></video>
+          <video src="assests/Video4.mp4" controls></video>
+        </div>
+      </div>
+       
+      <div class="eks-view">
+        <div class="eks-g1">
+          <div class="eks-g">
+            <img src="assests/Pic1.jpeg" alt="">
+            <div>
+              <p>Exclusive Collection</p>
+              <div class="eks-view1-p1">We cater to the latest trends</div>
+            </div>
+          </div>
+          <div class="eks-g">
+            <img src="assests/Pic2.jpeg" alt="">
+            <div>
+              <p>Secure Payments</p>
+              <div class="eks-view1-p1">We provide instant secure checkouts</div>
+            </div>
+          </div>
+          <div class="eks-g">
+            <img src="assests/Pic3.jpeg" alt="">
+            <div>
+              <p>7 Days Exchange</p>
+              <div class="eks-view1-p1">Easy exchange policy</div>
+            </div>
+          </div>
+          <div class="eks-g">
+            <img src="assests/Pic4.jpeg" alt="">
+            <div>
+              <p>Islandwide Delivery</p>
+              <div class="eks-view1-p1">Free Delivery Above LKR 10,000</div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <br>
+
+        <hr class="hr">
+        <br>
+
+        <div class="ka01">
+          <div>
+            <div class="ka0">
+              <img src="assests/Kandy-End-Pic.webp">
+            </div>
+            <br>
+            <div class="k01">
+              Welcome to <a href="www.kandyselection.lk">www.kandyselection.lk</a>. Reserve<br>
+              your dress now before it’s too late. You can get<br>
+              in touch with us via
+            </div>
+            <br>
+            <div class="k02">
+              Phone: <a href="tel:+94 70 778 8688">+94 70 778 8688</a><br>
+              Email: <a href="mailto:online@kandyselection.lk">online@kandyselection.lk</a>
+            </div>
+            <br>
+            <div class="k03">
+              <a href="https://www.facebook.com/kandyselectiononline">
+                <img src="assests/Facebook-Pic.jpg"
+                      alt="Facebook-Pic"></a>
+              <a href="https://www.instagram.com/kandy_selection/">
+                <img src="assests/Instagram-Pic.jpg"
+                      alt="Instagram-Pic"></a>
+              <a href="https://wa.me/+94707788688/?text=Hi%2C%20anyone%20have%20a%20chat%3F">
+                <img src="assests/Whatsapp-Pic.jpg"
+                      alt="Whatsapp-Pic"></a>
+              <a href="https://www.tiktok.com/@kandy_selection">
+                <img src="assests/Tiktok-Pic.jpg"
+                      alt="Tiktok-Pic"
+                      style="height: 1.9rem;"></a>
+            </div>
+            <br>
+            <br>
+            <div class="k05">
+              &#169;kandyselection.lk. All rights reserved | 
+              Website by <a href="https://aurora365.net/"><u>Aurora 365 Pvt Ltd</u></a>
+            </div>
+          </div>
+          <div class="k04">
+          <div style="font-size: 1.1rem; color: white; padding-bottom: 10px;">IMPORTANT LINKS</div><br>
+          <div style="padding-bottom: 10px;"><a href="">Returns & Exchange Policy</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Privacy Policy</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Terms & Condition</a></div>
+          </div>
+          <div class="k04">
+          <div style="font-size: 1.1rem; color: white; padding-bottom: 10px;">QUICK CATEGORIES</div><br>
+          <div style="padding-bottom: 10px;"><a href="">New Arrivals</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Women's Office Wear</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Women's Party Wear</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Budget Tees</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Jewellery</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Footwear</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Wallets and Purses</a></div>
+          </div>
+          <div class="k04">
+          <div style="font-size: 1.1rem; color: white; padding-bottom: 10px;">ACCOUNT</div><br>
+          <div style="padding-bottom: 10px;"><a href="">My Account</a></div>
+          <div style="padding-bottom: 10px;"><a href="">Order History</a></div>
+          </div>
+          <div class="k04">
+          <div style="font-size: 1.1rem; color: white; padding-bottom: 10px;">HELP</div><br>
+          <div><a href="">WhatsApp</a></div>
+          </div>
+  
+          <div style="text-align: center;">
+            <img src="assests/Kandy-End-Pic.svg"
+                alt="Kandy-End-Pic"
+                style="height: 1.8rem;">
+          </div>
+        </div>
+        <br>
+        <div class="k6">
+          <video src="assests/Video1.mp4" controls></video>
+          <video src="assests/Video2.mp4" controls></video>
+          <video src="assests/Video3.mp4" controls></video>
+          <video src="assests/Video4.mp4" controls></video>
+        </div>
+      </div>
+      
+      <script src="script.js"></script>
+    
+    </body>
+</html>
+   
